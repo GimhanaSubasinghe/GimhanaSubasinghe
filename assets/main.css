@@ -1,0 +1,22 @@
+.nav-container ul{
+    list-style: none;
+    display: flex;
+}
+
+.nav-container ul li{
+    margin-right: 10px;
+}
+
+.nav-container ul li a{
+    text-decoration: none;
+}
+
+.nav-container .nav-logo{
+    height: 60px;
+    width: auto;
+}
+.nav-container .nav-logo img{
+    height: 100%;
+}
+
+
