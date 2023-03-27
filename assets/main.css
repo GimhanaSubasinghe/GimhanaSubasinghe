@@ -14,7 +14,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url("C:/Users/GeEna/Desktop/Works/20230127_06405.jpg");
+    background-image: url("./assets/img/20230127_06405.jpg");
     background-size: cover;
     background-position: center;
 }
