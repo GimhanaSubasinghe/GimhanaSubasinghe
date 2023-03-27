@@ -6,28 +6,236 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="./assets/main.css">
+    <script src="https://kit.fontawesome.com/5ebd8180b2.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav>
-        <div class="nav-container">
-            <div class="nav-logo">
-                <img src = "./assets/img/Logo.jpg">
+        <div id="header">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src = "./assets/img/Logo.jpg">
+                </div>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#task">My Task</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
             </div>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">My Task</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
         </div>
     </nav>
     <main>
+        <section class="home" id="home">
+            <div class="home-name">
+                <h1>Hello!,<br>It's Me<span> Gimhana</span><br>Subasinghe From Sri Lanka</h1>
+                <p>And I'm a <span class="multiple-text">Traveller</span></p>
+            </div>
+        </section>
+
+<!-------------------------------About--------------------------->
+        <section class="about" id="about">
+            <div class="about-me">
+                <div class="me-1">
+                    <img src="C:\Users\GeEna\Desktop\Works\20210213_18195csc5.jpg" width="300" height="400">
+                </div>
+            
+                <div class="me-2">
+                    <h1 class="me-title">About <span>Me:</span></h1>
+                    <p>Hi, My name is Gimhana Subasinghe and I'm a 25-year-old traveler from Sri Lanka!
+                        Yes, I love exploring things and seeing places but nothing captures me more than basking in the sun and surfing in the high tides! I have toured in more than 50 countries but among all of them, my motherland truly captured me. 
+                    Sri Lanka has a rich history dating back over a millennium and that leaves us a lot of archeological sites to witness and enjoy the beauty of Sri Lanka. With that said, learn about me and the places I've been!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="tab">
+            <div class="tab-titles active-links">
+                    <p class="tab-links" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+
+
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Time Management</span><br>He needs to set priorities and manage his daily time.</li>
+                        <li><span>Communication Skills</span><br>He is sociable and more easygoing than most of people.</li>
+                        <li><span>Stress Management</span><br>There are few things that we can do to completely cut stress out of our lives.</li>
+                        <li><span>Team work</span><br>Travelling with others is a great way to practice your skills as a team player.</li>
+                        <li><span>Organization and planning</span><br>If your skills at organizing and planning projects are lacking on the job,</li>
+                        <li><span>Swimming</span><br>If you go to a beach destination without knowing how to swim</li>
+                        <li><span>Riding A Scooter / Motorbike</span><br>Many Asian countries actually favor motorbikes/scooters over cars.</li>
+                        <li><span>Reading Maps</span><br>You might think that this is an obsolete skill to learn,</li>
+                        <li><span>Language skills:</span><br>improves his language skills by traveling and meeting people from all around the world,</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>2010;</span><br>Climb Piduruthalagala Hill from Nuwara Eliya. </li>
+                        <li><span>2012;</span><br>Fly over clouds in Dambulla,</li>
+                        <li><span>2013;</span><br>Meet wahales and dolpins in form the Mirissa, Sri Lanka.</li>
+                        <li><span>2015;</span><br>Scale the highest peak in the world mounten Everest,</li>
+                        <li><span>2019;</span><br>Explore the marine wonder land in the Great Barrier Reef in Australia</li>
+                        <li><span>2022;</span><br>Walk the Great wall of China</li>
+                    </ul>
+                </div>
+
+
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2014 - 2015</span><br>Diploma. in Travel,Tourisum and Hospital Management University of Colombo</li>
+                        <li><span>2015 - 2019</span><br>BSc. in Travel and Tourism Management, SLTC Reaserch University</li>
+                        <li><span>2019 - 2021</span><br>MSc. Tourisum and Hospital Management, Northumbria University</li>
+                    </ul>
+
+
+                </div>
+            </div>
+        </section>
+    
+<!------------------------Services------------------------->
+        <section class="services" id="services">
+            <div class="my-services">
+                <h1 class="sub-title" style="text-align:left;">My <span>Services</span></h1>
+                <h2>You Will learn From:</h2>
+            </div>
+        </section>
+
+        <section class="service-2">
+            <div class="my-service">
+                <div>
+                    <i class="fa-sharp fa-regular fa-compass"></i>
+                    <h2>Nuts and Bolts of Travel Preparation</h2>
+                    <p>In this module, we'll go over the basics of preparation, planning, documentation, and insurance. Thinking ahead about all of the elements you'll need is an essential part of the process.</p>
+                    <a href="#">learn More</a>
+                </div>
+    
+                <div>
+                    <i class="fa-solid fa-book-medical"></i>
+                    <h2>Travel Health & Prevention</h2>
+                    <p>It's easier to stay healthy if you know how to anticipate potential challenges, minimize your risk, and access the care that you need.</p>
+                    <a href="#">learn More</a>
+                </div>
+    
+                <div>
+                    <i class="fa-solid fa-shield"></i>
+                    <h2>Staying Safe</h2>
+                    <p>In this module, we'll cover strategies for staying safe while traveling, measures you can take to minimize risk, as well as specific advice for women and LGBT travelers.</p>
+                    <a href="#">learn More</a>
+                </div>
+    
+                <div>
+                    <i class="fa-solid fa-mountain-sun"></i>
+                    <h2>Cultural Competence & Ethics</h2>
+                    <p>In this final module, we'll address matters of cultural competence and the ethics of travel. Travelers have responsibilities to the people who live and work in the countries they are visiting, and it is important to keep th.</p>
+                    <a href="#">learn More</a>
+                </div>
+            </div>
+        </section>
+        
+<!-------------------My Task--------------->
+        <section class="task-own" id="task">
+            <div class="my-task">
+                <h1 class="sub-title">My <span>Task</span></h1>
+                <div class="Task-list">
+                    <div class="Task">
+                        <img src="C:/Users/GeEna/Desktop/Works/maun.jpg">
+                        <div class="layer">
+                            <h3>Mount Everest, <br> Nepal.</h3>
+                            <p>Mount Everest is Earth's highest mountain above sea level, located in the Mahalangur Himal sub-range of the Himalayas.</p>
+                            <a href="#"><i class="fa-regular fa-eye"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="Task">        
+                        <img src="C:/Users/GeEna/Desktop/Works/11 Best Heaters for Tents_ Safe Camping Guide (Gas _ Electric Space Heaters).jfif">
+                        <div class="layer">
+                            <h3>Sinharaja Forest Reserve,  Sri Lanka.</h3>
+                            <p>Sinharaja Forest Reserve is a forest reserve and a biodiversity hotspot in Sri Lanka.</p>
+                            <a href="#"><i class="fa-regular fa-eye"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="Task">
+                        <img src="C:/Users/GeEna/Desktop/Works/Untitled by Jacques de Vos.jfif">
+                        <div class="layer">
+                            <h3>Great Blue Hole, <br> Belize.</h3>
+                            <p>The Blue Hole Natural Monument comprises a gigantic underwater sinkhole surrounded by a ring of coral in the sparkling, shallow waters of the Lighthouse Reef Atoll.</p>
+                            <a href="#"><i class="fa-regular fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </section>
+
+<!--------------------------------Contact------------------------->
+        <section class="contact" id="contact">
+            <div class="contact-box">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact <span>Me:</span></h1>
+                        <p><i class="fa-solid fa-at"></i>gimhanasubasinghe0@gmail.com</p>
+                        <p><i class="fa-solid fa-phone-volume"></i>076-8707833</p>
+                        <div class="icon">
+                            <a href="https://www.facebook.com/profile.php?id=100008726342772"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/gimhana___subasinghe/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/gimhana-subasinghe-4a5027227/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href=""><i class="fa-brands fa-telegram"></i></a>
+                        </div>
+                        <a href="https://drive.google.com/file/d/1LDJw_O6SjaSuwjnit2J2ng2udpmSrqql/view?usp=sharing" Download class="btn btn1">Download CV</a>
+                    </div>
+                    <div class="contact-right"></div>
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submited</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
+
+    
     <footer>
+        <div class="copyright">
+            <p>Copyright ⓒ Create By Gimhana. <i class="fa-solid fa-code"></i></p>
+        </div>
+
+<!--------------------- type ----------------------->
+        <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+        <script src="./assets/main.js"></script>
+
+
+<!-------------------------------About Skill----------------------------->
+
+        <script>
+
+            var tablinks= document.getElementsByClassName("tab-links");  
+               var tabcontents= document.getElementsByClassName("tab-contents");
+            
+               function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+               }
+            
+            
+            </script>
+        
 
     </footer>
-    <script src="./assets/main.js"></script>
+
 </body>
 </html>
