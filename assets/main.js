@@ -22,6 +22,6 @@ ScrollReveal().reveal('.img src', { orogin:'bottom' });
 
 /*--------------------------focusing----------------------------*/ 
 window.onload = function() {
-    var section = document.getElementById("header");
+    var section = document.getElementById("home");
     section.scrollIntoView();
   }
