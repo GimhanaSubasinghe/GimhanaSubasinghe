@@ -13,11 +13,10 @@ ScrollReveal({
     reset: true ,
     distance: '60px',
     duration:2000,
-    delay:50
+    delay:500
 });
 
-ScrollReveal().reveal('.header, .about, .services, .task, .contact', { origin:'top' });
-ScrollReveal().reveal('.img src', { orogin:'bottom' });
+ScrollReveal().reveal('.home-name', { orogin:'bottom' });
 
 
 /*--------------------------focusing----------------------------*/ 
